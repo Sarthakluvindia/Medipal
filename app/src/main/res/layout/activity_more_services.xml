@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoreServices">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbardd"
+            android:minHeight="?attr/actionBarSize"
+            android:background="@color/colorPrimary">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/ms_back"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:background="@drawable/ic_arrow_back_white_24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:layout_marginTop="4.5dp"
+                    android:layout_toRightOf="@+id/ms_back"
+                    android:text="More Services"
+                    android:textColor="@android:color/white"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/preg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:drawableLeft="@drawable/ic_pregnant_woman_black_32dp"
+                    android:textSize="16dp"
+                    android:paddingLeft="8dp"
+                    android:drawablePadding="10dp"
+                    android:text="Pregnancy Care"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/vacc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:drawableLeft="@drawable/ic_event_available_black_24dp"
+                    android:textSize="16dp"
+                    android:paddingLeft="8dp"
+                    android:drawablePadding="10dp"
+                    android:text="Vaccination"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/drugdict"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:drawableLeft="@drawable/ic_book_black_24dp"
+                    android:textSize="16dp"
+                    android:paddingLeft="8dp"
+                    android:drawablePadding="10dp"
+                    android:text="Drug Dictionary"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/ambul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:drawableLeft="@drawable/ambulance"
+                    android:textSize="16dp"
+                    android:paddingLeft="8dp"
+                    android:drawablePadding="10dp"
+                    android:text="Ambulance Services"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/doctor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:drawableLeft="@drawable/doctor"
+                    android:textSize="16dp"
+                    android:paddingLeft="8dp"
+                    android:drawablePadding="10dp"
+                    android:text="Appoint a Doctor"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/medicalhistory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:drawableLeft="@drawable/treatment"
+                    android:textSize="16dp"
+                    android:paddingLeft="8dp"
+                    android:drawablePadding="10dp"
+                    android:text="Medical History"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/curr_medic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:drawableLeft="@drawable/medicine"
+                    android:textSize="16dp"
+                    android:paddingLeft="8dp"
+                    android:drawablePadding="10dp"
+                    android:text="Current Medications"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:drawableLeft="@drawable/ic_settings_black_32dp"
+                    android:textSize="16dp"
+                    android:paddingLeft="8dp"
+                    android:drawablePadding="10dp"
+                    android:text="Setting"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false" />
+                <Button
+                    android:id="@+id/about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:drawableLeft="@drawable/ic_info_outline_black_32dp"
+                    android:textSize="16dp"
+                    android:paddingLeft="8dp"
+                    android:drawablePadding="10dp"
+                    android:text="About Us"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/common_google_signin_btn_text_dark_default"
+                    android:drawableLeft="@drawable/ic_terms_and_condition_black_32dp"
+                    android:textSize="16dp"
+                    android:paddingLeft="8dp"
+                    android:drawablePadding="10dp"
+                    android:text="Terms and Conditions"
+                    android:textAlignment="textStart"
+                    android:textAllCaps="false" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrugDictionary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbardd"
+                android:minHeight="?attr/actionBarSize"
+                android:background="@color/colorPrimary">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/dd_back"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:background="@drawable/ic_arrow_back_white_24dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:layout_marginTop="4.5dp"
+                        android:layout_toRightOf="@+id/dd_back"
+                        android:text="Drug Dictionary"
+                        android:textColor="@android:color/white"
+                        android:textSize="20dp" />
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/toolbardd"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/dd_edtv"
+                    android:layout_width="match_parent"
+                    android:layout_margin="30dp"
+                    android:background="#ffffff"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:completionThreshold="1"
+                    android:drawableLeft="@drawable/ic_search_black_24dp" />
+                <ScrollView
+                    android:id="@+id/drugdictscroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff">
+                    <LinearLayout
+                        android:id="@+id/drug"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="#fff">
+
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

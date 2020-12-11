@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#7a8b8b8b"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="Name:"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+        <EditText
+            android:id="@+id/med_rep_name"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="Type:"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+        <Spinner
+            android:id="@+id/med_rep_type_spinner"
+            android:textAlignment="center"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:layout_height="match_parent">
+        </Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:text="Time:"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="16dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/select_time_med_freq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:text="Select"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:text="Dosage:"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="16dp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+        <EditText
+            android:id="@+id/dosage_med_freq"
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="match_parent"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

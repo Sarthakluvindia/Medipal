@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "741357337635",
+    "firebase_url": "https://ugdmedipal.firebaseio.com",
+    "project_id": "ugdmedipal",
+    "storage_bucket": "ugdmedipal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741357337635:android:34eef7d6fd68cbfea58596",
+        "android_client_info": {
+          "package_name": "com.example.ugdmedipal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741357337635-qj91smhluv2fjeqlqlfpo3rn4k9qdo66.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ugdmedipal",
+            "certificate_hash": "6af15a139c55bb867685bc35461f9988e6468c0f"
+          }
+        },
+        {
+          "client_id": "741357337635-vpf39k4ng74opok2oa6ukunmfcgeu49m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCflhkfQbX9HM0BfPFs6eTYYnRt2IThn3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741357337635-vpf39k4ng74opok2oa6ukunmfcgeu49m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

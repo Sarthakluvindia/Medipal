@@ -1,0 +1,241 @@
+<resources>
+    <string name="app_name">MediPAL</string>
+    <string name="signup">New User! Please <u>Register</u>.</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string-array name="med_type">
+        <item>Tablets</item>
+        <item>Syrup</item>
+        <item>Capsules</item>
+        <item>Drops</item>
+        <item>Inhalers</item>
+        <item>Injections</item>
+        <item>Implants</item>
+    </string-array>
+    <string-array name="no_of_med">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="med_freq">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="tab_text_1">Mother</string>
+    <string name="tab_text_3">Baby</string>
+
+    <string name="week1">Your due date will be calculated from the first day of your last menstrual period. Conception occurs about two weeks from this day, and that\'s when you\'re truly considered pregnant. In just 40 short weeks, your baby will grow from the size of a tiny seed to the size of a plump watermelon.</string>
+    <string name="week2">Your due date will be calculated from the first day of your last menstrual period. Conception occurs about two weeks from this day, and that\'s when you\'re truly considered pregnant. In just 40 short weeks, your baby will grow from the size of a tiny seed to the size of a plump watermelon.</string>
+    <string name="week3">Your due date will be calculated from the first day of your last menstrual period. Conception occurs about two weeks from this day, and that\'s when you\'re truly considered pregnant. In just 40 short weeks, your baby will grow from the size of a tiny seed to the size of a plump watermelon.</string>
+    <string name="week4">Your fertilized egg, known as a zygote, is a ball of 32 cells that\'s about the size of a poppy seed. It\'s at this stage that the cells separate into three distinct layers from which your baby\'s internal organs and skin will develop.</string>
+    <string name="week5">The ball of cells now resembles a tadpole and is as big as a peppercorn. The creation of the brain, spinal cord, heart, and blood vessels is already well under way.</string>
+    <string name="week6">Your little one has tripled in size and is protected by amniotic fluid. Although he\'s grown by leaps and bounds, he\'s still only about the size of a pomegranate seed.</string>
+    <string name="week7">Your baby is now about the size of a small blueberry. Her arm buds, which formed last week, now look like paddles.</string>
+    <string name="week8">Your baby is about the size of a raspberry. His hands and feet have webbed fingers and toes. Soon this extra tissue between his digits will be reabsorbed to reveal individual fingers and toes.</string>
+    <string name="week9">Your baby has graduated from embryo to fetus—and is now about the size of a cherry. The digestive tract and reproductive organs are formed, but it\'s still too early for even a skilled technician to tell whether you\'re having a boy or a girl.</string>
+    <string name="week10">Your baby is about the size of a kumquat and can stretch his spine. Her eyes and eyelids are more developed and her eyebrows are beginning to grow.</string>
+    <string name="week11">Your baby is about the size of a fig. From now through week 20 of your pregnancy, he\'ll increase 30-fold in weight and triple in length.</string>
+    <string name="week12">Your baby is almost three inches long now, about the size of a plum. Fingernails, toenails, and bones are forming, and a fine layer of hair covers most of her body.</string>
+    <string name="week13">Your beautiful baby is the size of a Meyer lemon this week—and his vocal cords are beginning to develop.</string>
+    <string name="week14">As you enter your second trimester, your baby is the size of a peach. All of her internal organs formed during the first trimester, and they will continue to mature from now until she\'s born.</string>
+    <string name="week15">Your baby is now the size of an apple. His brain now controls all the muscles in her body; he is able to move. Yes, he\'ll even do somersaults! But if this is your first baby, you probably won\'t feel him moving for several more weeks.</string>
+    <string name="week16">Your baby is now the size of an avocado—and she can make a fist and even suck her thumb.</string>
+    <string name="week17">Your baby is now the size of an pear. He has hiccupped before, but this is the first time you might feel it.</string>
+    <string name="week18">Your baby is now about the size of a sweet potato—and her tiny fingers now have unique fingerprints!</string>
+    <string name="week19">Your baby is now about the size of a mango. His legs are now longer than his arms, and he\'ll start giving you "hello" jabs at regular intervals, which you may be able to feel if this is your second or third pregnancy. First-time moms still might not feel anything for a few more weeks.</string>
+    <string name="week20">Your baby is now the size of a banana. She may have thin eyebrows and is sprouting some hair on her head.</string>
+    <string name="week21">Your baby is as long as a carrot, and his skin now responds to touch. If you put pressure on your belly, he\'ll move away or push back.</string>
+    <string name="week22">Your baby is the size of a papaya. Her lungs are developing rapidly, and they will begin making a protein called surfactant, which will help her breathe independently once she\'s born.</string>
+    <string name="week23">Your baby is as big as an eggplant. His brain and hearing are more developed this week, and he\'s beginning to recognize your voice.</string>
+    <string name="week24">Your baby is as long as an ear of corn. Her nostrils are opening now for "practice breathing"; she\'ll go through the same motions of real breathing but inhale amniotic fluid instead of air.</string>
+    <string name="week25">Your baby is the size of an acorn squash. He\'s developing a firm grasp and may reach out and grab the umbilical cord. He can also stick out his tongue!</string>
+    <string name="week26">Your baby is nearly as long as a zucchini. Her eyebrows and eyelashes are well-defined; plus, she has more hair on her head this week.</string>
+    <string name="week27">Your baby is now the size of a cauliflower. At this point, he may be able to distinguish between your voice and your husband\'s or partner\'s voice.</string>
+    <string name="week28">Your baby is the size of a kabocha squash, and she is beginning to open her eyes and blink.</string>
+    <string name="week29">Your baby is the size of a large butternut squash. His skin is still wrinkly, but as fat accumulates, he will fill out.</string>
+    <string name="week30">Your baby is the size of a large cabbage. She has cycles of sleeping and waking. After 30 to 90 minutes of snoozing, she may give you a kick to let you know she\'s awake.</string>
+    <string name="week31">Your baby is about as long as a bunch of leeks, and she will now gain as much as a half pound per week until she\'s born.</string>
+    <string name="week32">Your baby is the size of a Napa cabbage. Because her taste buds are developed, she may acquire a preference for the foods you eat, which she samples when she swallows amniotic fluid.</string>
+    <string name="week33">Your baby is the size of a pineapple. Lanugo, the fine hair that covered her entire body and helped keep her warm as she developed, is starting to disappear, but there might still be patches of it on her shoulders and back.</string>
+    <string name="week34">Your baby is the size of a cantaloupe. Her bones are fully developed by now, and she\'s turning her head, pirouetting, and moving her body from side to side.</string>
+    <string name="week35">Your baby is the size of a honeydew melon. In preparation for birth, he is now upside down in your uterus.</string>
+    <string name="week36">Your baby is now the size of a head of romaine lettuce, and her wrinkly suit of skin is filling out as she gets plumper.</string>
+    <string name="week37">Your baby is as long as stalk of Swiss chard. Because he\'s running out of room in your uterus, he mostly stretches and wiggles, instead of delivering big kicks.</string>
+    <string name="week38">Your baby is the length of a stalk of rhubarb. Connections are forming in her brain that will help her swallow and even sleep better once she\'s born.</string>
+    <string name="week39">Your baby now weighs as much as a small pumpkin. At this point, he has shed most of that white creamy substance called vernix and the fine, fur-like hair called lanugo that has covered his skin since the middle of your second trimester.</string>
+    <string name="week40">By the time she\'s born, your baby may be watermelon-size. You\'re expecting to give birth this week, but don\'t worry if your baby decides to stick around a little longer. Many first babies are late, and she\'ll be worth the wait—we promise!</string>
+
+    <string name="welcome_messages">Hello, %1$s! You have &lt;b>%2$d new messages&lt;/b>.</string>
+
+    <string-array name="symptoms">
+        <item>fever</item>
+        <item>dyspnea</item>
+        <item>nausea</item>
+        <item>fatigue</item>
+        <item>pain</item>
+        <item>headache</item>
+        <item>diarrhea</item>
+        <item>vomiting</item>
+        <item>cough</item>
+        <item>shortness of breath</item>
+        <item>pain abdominal</item>
+        <item>dizziness</item>
+        <item>hypotension</item>
+        <item>pruritus</item>
+        <item>tachycardia sinus</item>
+        <item>chill</item>
+        <item>splenomegaly</item>
+        <item>dyspnea on exertion</item>
+        <item>sore throat</item>
+        <item>night sweat</item>
+        <item>angina pectoris</item>
+        <item>pain chest</item>
+        <item>anemia</item>
+        <item>cyanosis</item>
+        <item>tremor</item>
+        <item>asthenia</item>
+        <item>hypertensive disease</item>
+        <item>tachypnea</item>
+        <item>unresponsiveness</item>
+        <item>palpitation</item>
+        <item>sore to touch</item>
+        <item>ascites</item>
+        <item>pallor</item>
+        <item>agitation</item>
+        <item>decreased body weight</item>
+        <item>apyrexial</item>
+        <item>arthralgia</item>
+        <item>constipation</item>
+        <item>hepatomegaly</item>
+        <item>abdominal bloating</item>
+        <item>deglutition disorder</item>
+        <item>hematuria</item>
+        <item>lesion</item>
+        <item>myalgia</item>
+        <item>mass of body structure</item>
+        <item>haemorrhage</item>
+        <item>non-productive cough</item>
+        <item>seizure</item>
+        <item>swelling</item>
+        <item>thrombocytopaenia</item>
+        <item>thicken</item>
+        <item>confusion</item>
+        <item>wheezing</item>
+        <item>patient non compliance</item>
+        <item>distress respiratory</item>
+        <item>arthritis</item>
+        <item>exanthema</item>
+        <item>hemiplegia</item>
+        <item>hyponatremia</item>
+        <item>unconscious state</item>
+        <item>erythema</item>
+        <item>pain back</item>
+        <item>hyperkalemia</item>
+        <item>oliguria</item>
+        <item>bradycardia</item>
+        <item>pneumonia</item>
+    </string-array>
+
+    <string-array name="drug_dictionary">
+        <item>Parizone S 250mg/125mg Injection</item>
+        <item>SPORMAX 125 MG DRY SYRUP</item>
+        <item>Xenocof A Expectorant</item>
+        <item>Theocold Plus Syrup</item>
+        <item>Zenlong 8mg Tablet</item>
+        <item>Attera 18mg Tablet</item>
+        <item>Tinro 500 mg/600 mg Tablet</item>
+        <item>O2 Tablet</item>
+        <item>Getwel Tablet</item>
+        <item>Raplor P Tablet</item>
+        <item>Ofloren 0.3% Drop</item>
+        <item>Dicloran MR 50 mg/2 mg Tablet</item>
+        <item>Ofler 200mg Infusion</item>
+        <item>Syntocinon 5IU Injection</item>
+        <item>Triptal Plus Tablet</item>
+        <item>Velcade 3.5mg Injection</item>
+        <item>Stemin Forte Tablet</item>
+        <item>Sbl trichosanthes dioica dilution 3 ch</item>
+        <item>Wheezal sachrol tablet</item>
+        <item>Ayurvedic life moringa tablet</item>
+        <item>Simply herbal garcinia cambogia extract 800mg capsule</item>
+        <item>Sbl sulphur 0/18 lm</item>
+        <item>Dolo 650 Tablet</item>
+        <item>Sumo Tablet</item>
+        <item>Meftal Spas Tablet</item>
+        <item>Norflox 400 Tablet</item>
+        <item>Senacept 60mg Tablet</item>
+        <item>Cofsils Cough Syrup</item>
+        <item>Citzen 10mg Tablet</item>
+        <item>Benadryl Syrup</item>
+        <item>Nicerbium Tablet</item>
+        <item>Azithral 500 Tablet</item>
+        <item>Azimax 500 Tablet</item>
+        <item>PAN 40 Tablet</item>
+        <item>Zincovit Tablet</item>
+        <item>Shelcal 500 Tablet</item>
+        <item>Crocin Pain Relief Tablet</item>
+        <item>Crocin 650mg Tablet</item>
+        <item>Crocin Advance Tablet</item>
+        <item>Ecosprin 75 Tablet</item>
+        <item>Saridon</item>
+        <item>Aushadh Iron Tonic Syrup</item>
+        <item>Amlovas 5 Tablet</item>
+        <item>Zoryl M2 Forte Tablet PR</item>
+        <item>Zedex Cough Syrup</item>
+        <item>Cetapin XR 500mg Tablet</item>
+        <item>Glyxambi 25mg/5mg Tablet</item>
+        <item>Telsite 40mg Tablet</item>
+        <item>Combiflam Tablet</item>
+        <item>Flexon Tablet</item>
+        <item>Cheston CS 2mg/10mg Syrup</item>
+        <item>Rexcof DX NF Syrup</item>
+        <item>Deletus D Syrup Strawberry</item>
+        <item>Abcin 500mg Injection</item>
+        <item>Mikacin 500mg Injection</item>
+        <item>Omnikacin 500 Injection</item>
+        <item>Tossex DMR Syrup Kiwi Sugar Free</item>
+        <item>Himalaya Koflet-SF Linctus</item>
+        <item>Himalaya Septilin Syrup</item>
+        <item>Calcirol Sachet</item>
+        <item>Calcirol Syrup</item>
+        <item>Ostigen D Syrup</item>
+        <item>Calcimax 500 Tablet</item>
+        <item>Calcimax OP Plus Tablet</item>
+        <item>Corus Soft Gelatin Capsule</item>
+        <item>Ibunij A 400 mg/325 mg Tablet</item>
+        <item>Brumol 400 mg/325 mg Tablet</item>
+        <item>PPG 0.3 Tablet</item>
+        <item>Cholergol Tablet</item>
+        <item>Levoxid 500mg Tablet</item>
+        <item>Amodep AT Tablet</item>
+        <item>Hairmax Forte Solution</item>
+        <item>Perfectil Tablet</item>
+        <item>Wellman Hairfollic Tablet</item>
+        <item>Follicells Tablet</item>
+        <item>Hairboost Tablet</item>
+        <item>Rumagesic Plus 400 mg/325 mg Tablet</item>
+        <item>Dexorange Syrup</item>
+        <item>Aspisol 150 Tablet</item>
+        <item>Optive Eye Drop</item>
+        <item>Refresh Tears Eye Drop</item>
+        <item>Lubrex Eye Drop</item>
+        <item>Sinus cm Expectorant</item>
+        <item>Solspre Nasal Spray</item>
+        <item>Nasivion Classic Adult 0.05% Nasal Spray</item>
+        <item>Kapinose Nasal Drops</item>
+        <item>Volini Spray</item>
+        <item>Moov Pain Relief Spray</item>
+        <item>Combiflam Icy Hot Fast Pain Relief Spray</item>
+        <item>Omnigel Spray</item>
+        <item>Relispray</item>
+        <item>Zandu Balm Ultra Power</item>
+        <item>Vicks Vaporub</item>
+        <item>Deplatt A 75 Tablet</item>
+        <item>Otrivin S Nasal Spray</item>
+        <item>Evion 400mg Capsule</item>
+        <item>NE -400 Soft Gelatin Capsule</item>
+    </string-array>
+</resources>

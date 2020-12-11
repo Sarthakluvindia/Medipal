@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ugdmedipal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_medipal_head"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_medipal_head"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MedicalHistory"></activity>
+        <activity android:name=".Vaccination" />
+        <activity android:name=".Pregnancy" />
+        <activity android:name=".Prediction_Third" />
+        <activity android:name=".Prediction_Second" />
+        <activity android:name=".Prediction" />
+        <activity android:name=".MoreServices" />
+        <activity android:name=".MedicineDosage" />
+        <activity android:name=".DrugDictionary" />
+        <activity android:name=".DoctorAppointment" />
+        <activity android:name=".AmbulanceService" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".AnimationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginActivity" />
+    </application>
+
+</manifest>

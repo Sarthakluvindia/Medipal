@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="In-App Services">
+        <menu>
+            <item
+                android:id="@+id/nav_predict"
+                android:icon="@drawable/analysis_color"
+                android:title="Predict Disease" />
+            <item
+                android:id="@+id/nav_preg"
+                android:icon="@drawable/mother"
+                android:title="Pregnancy" />
+            <item
+                android:id="@+id/nav_child"
+                android:icon="@drawable/heart"
+                android:title="Vaccination" />
+            <item
+                android:id="@+id/nav_history"
+                android:icon="@drawable/treatment_color"
+                android:title="Medical History"/>
+            <item
+                android:id="@+id/nav_dict"
+                android:icon="@drawable/english"
+                android:title="Drug Dictionary"/>
+            <item
+                android:id="@+id/nav_medic"
+                android:icon="@drawable/medicine_color"
+                android:title="Current Medications"/>
+            <item
+                android:id="@+id/nav_doc"
+                android:icon="@drawable/doctor_color"
+                android:title="Doctor's Appointment" />
+            <item
+                android:id="@+id/nav_ambul"
+                android:icon="@drawable/ambulance_color"
+                android:title="Ambulance Service" />
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/edit_profile"
+                android:icon="@drawable/profile_color"
+                android:title="Edit Profile" />
+            <item
+                android:id="@+id/sign_out"
+                android:icon="@drawable/signout_color"
+                android:title="Sign Out" />
+            <item
+                android:id="@+id/delete"
+                android:icon="@drawable/delete_color"
+                android:title="Delete Account"/>
+        </menu>
+    </item>
+
+</menu>
